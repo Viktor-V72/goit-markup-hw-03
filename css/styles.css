@@ -341,7 +341,6 @@ ul {
   padding-left: 279px;
   padding-right: 280px;
   margin-bottom: 46px;
-  
 }
 .filter .box:hover {
   color: var(--background-color-body);
@@ -350,6 +349,8 @@ ul {
 
 .examples .examples-title {
   color: var(--title-text-color);
+  font-size: 18px;
+
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -377,7 +378,6 @@ ul {
   font-size: 16px;
   line-height: 1.62;
 
-  display: inline-block;
   border: 1px solid transparent;
   padding: 6px 22px;
 }
@@ -386,18 +386,34 @@ ul {
   margin-right: 8px;
 }
 
-}
-.examples {
+/* .examples {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* ??????? */
+ 
   margin-right: 0;
   margin-left: 0;
-}
+} */
 
 .filter-selection {
-  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+.filter-items {
+  display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-project {
+  margin-right: 30px;
+}
+
+.filter-project:nth-child(3n + 3) {
+  margin: 0;
 }
