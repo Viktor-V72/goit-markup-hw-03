@@ -122,10 +122,15 @@ ul {
 
 .hero {
   text-align: center;
+  background-color: var(--additional-color);
+  width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-title {
   color: var(--background-color-body);
-  background-color: var(--additional-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -134,7 +139,7 @@ ul {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-  padding: 200px;
+  padding-top: 200px;
 }
 
 .button {
@@ -253,9 +258,10 @@ ul {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-.team-item h3,
 .team-item p {
   margin: 0;
 }
@@ -328,6 +334,10 @@ ul {
 
 .examples p {
   line-height: 1.87;
+}
+
+.examples {
+  padding-bottom: 94px;
 }
 
 .box {
